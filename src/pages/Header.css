@@ -1,0 +1,95 @@
+.top-navbar {
+  width: 100%;
+  background: #1d4ed8;
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; /* for dropdown positioning */
+}
+
+/* ==== LEFT side (Logo + Brand) ==== */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ==== RIGHT side (Toggle + Links) ==== */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links button:hover {
+  color: #d1d5db;
+}
+
+/* ==== Responsive (Mobile) ==== */
+@media (max-width: 768px) {
+  .top-navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #1d4ed8;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-left: auto; /* pushes toggle to far right */
+  }
+
+  .nav-links button {
+    text-align: left;
+    padding: 8px 0;
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+}

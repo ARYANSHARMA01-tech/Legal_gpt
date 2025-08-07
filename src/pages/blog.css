@@ -1,0 +1,93 @@
+.blog-page {
+  padding: 2rem;
+  background: #f9fafb;
+  min-height: 90vh;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog-header h1 {
+  font-size: 32px;
+  margin-bottom: 0.5rem;
+}
+
+.blog-header p {
+  color: #6b7280;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.blog-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.blog-card h2 {
+  font-size: 22px;
+  margin-bottom: 0.25rem;
+}
+
+.blog-card .date {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.blog-card button:hover {
+  background-color: #1e40af;
+}
+
+.contributors-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.contributor-card {
+  background: #e0f2fe;
+  padding: 16px 24px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  min-width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.contributor-card:hover {
+  transform: scale(1.03);
+}
+
+.contributor-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #0369a1;
+}
+
+.contributor-card p {
+  margin: 6px 0 0;
+  color: #334155;
+  font-size: 14px;
+}
