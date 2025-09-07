@@ -1,0 +1,690 @@
+2025-07-09 21:09:18,673 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:09:21,489 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:10:05,718 - api_app - INFO - Processing file: 5b317-legal-notice-india-book.pdf, type: application/pdf, size: 3002639 bytes
+2025-07-09 21:10:37,015 - api_app - ERROR - HTTP 400: No text could be extracted from the file
+2025-07-09 21:18:15,170 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:18:16,905 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:18:17,103 - api_app - INFO - LegalGPT flow initialized for query: what should i do i got this notice ...
+2025-07-09 21:18:17,173 - crewai.flow.flow - INFO - Flow started with ID: 7661cdce-6f38-4031-adc9-e4d30b4a9e5b
+2025-07-09 21:18:17,190 - api_app - ERROR - Failed to process user input: LLM.call() got an unexpected keyword argument 'message'. Did you mean 'messages'?
+2025-07-09 21:18:17,207 - api_app - ERROR - Processing failed after 2.05 seconds: LLM.call() got an unexpected keyword argument 'message'. Did you mean 'messages'?
+2025-07-09 21:18:52,862 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:19:25,653 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:19:27,797 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:20:12,981 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:20:14,499 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:20:14,508 - api_app - INFO - LegalGPT flow initialized for query: i got this notice what should i do ?...
+2025-07-09 21:20:14,517 - crewai.flow.flow - INFO - Flow started with ID: 356d6f1f-efa1-499a-abe7-ccfbf6bca90b
+2025-07-09 21:20:14,524 - api_app - ERROR - Failed to process user input: name 'message' is not defined
+2025-07-09 21:20:14,530 - api_app - ERROR - Processing failed after 1.55 seconds: name 'message' is not defined
+2025-07-09 21:20:51,150 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:21:15,354 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:21:17,957 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:22:30,153 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:22:32,408 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:22:32,423 - api_app - INFO - LegalGPT flow initialized for query: i got this notice what should i do now ?...
+2025-07-09 21:22:32,436 - crewai.flow.flow - INFO - Flow started with ID: 8355e646-c91a-40c8-bdd6-4bf540f2f343
+2025-07-09 21:22:32,495 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:22:34,932 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:22:34,937 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:22:34,940 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:34,940 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:34,946 - api_app - INFO - User input processed successfully
+2025-07-09 21:22:34,956 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:35,632 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:22:37,101 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:22:37,105 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:22:37,106 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:37,106 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:37,138 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:37,210 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:22:40,361 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:22:40,364 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:22:40,365 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:40,365 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:40,378 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:22:40,456 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:23:10,467 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:23:10,470 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:23:10,471 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:23:10,471 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:23:10,489 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:23:10,699 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:23:10,797 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2025-07-09 21:23:11,325 - root - ERROR - LiteLLM call failed: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01jd931zv2fmn85tez37zap94x` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12827, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2025-07-09 21:23:11,355 - api_app - ERROR - Failed to generate legal response: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01jd931zv2fmn85tez37zap94x` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12827, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2025-07-09 21:23:11,927 - api_app - ERROR - Processing failed after 41.78 seconds: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Request too large for model `llama-3.3-70b-versatile` in organization `org_01jd931zv2fmn85tez37zap94x` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12827, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2025-07-09 21:30:41,895 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:30:43,989 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:31:29,185 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:31:31,555 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:31:31,564 - api_app - INFO - LegalGPT flow initialized for query: i got this notice yesterday what steps should i follow...
+2025-07-09 21:31:31,573 - crewai.flow.flow - INFO - Flow started with ID: 5979dead-3d27-4196-9517-e56481628f65
+2025-07-09 21:31:31,597 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:31:33,454 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:31:33,460 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:31:33,462 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:31:33,463 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:31:33,471 - api_app - INFO - User input processed successfully
+2025-07-09 21:31:33,469 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:31:33,480 - api_app - ERROR - Failed to generate legal response: name 'llm2' is not defined
+2025-07-09 21:31:33,522 - api_app - ERROR - Processing failed after 4.34 seconds: name 'llm2' is not defined
+2025-07-09 21:32:23,286 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:32:46,712 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:32:49,034 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:33:17,307 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:33:18,878 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:33:18,887 - api_app - INFO - LegalGPT flow initialized for query: got this yesterday what should i do next...
+2025-07-09 21:33:18,895 - crewai.flow.flow - INFO - Flow started with ID: 0708da86-aadc-4127-b779-18dd39d76d69
+2025-07-09 21:33:18,936 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:33:21,097 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:33:21,099 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:33:21,101 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:33:21,102 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:33:21,105 - api_app - INFO - User input processed successfully
+2025-07-09 21:33:21,104 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:33:21,113 - api_app - ERROR - Failed to generate legal response: LegalAgents.__init__() missing 1 required positional argument: 'llm2'
+2025-07-09 21:33:21,161 - api_app - ERROR - Processing failed after 3.85 seconds: LegalAgents.__init__() missing 1 required positional argument: 'llm2'
+2025-07-09 21:35:18,490 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:36:05,941 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:36:08,149 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:36:41,044 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:36:42,459 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:36:42,468 - api_app - INFO - LegalGPT flow initialized for query: i got this notice yesterday what steps should i do next ...
+2025-07-09 21:36:42,476 - crewai.flow.flow - INFO - Flow started with ID: 7b4547c8-4871-430e-8dbd-80425fdfbb23
+2025-07-09 21:36:42,497 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:36:44,345 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:36:44,353 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:36:44,355 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:36:44,356 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:36:44,364 - api_app - INFO - User input processed successfully
+2025-07-09 21:36:44,361 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:36:44,373 - api_app - ERROR - Failed to generate legal response: name 'groq_llm2' is not defined
+2025-07-09 21:36:44,414 - api_app - ERROR - Processing failed after 3.37 seconds: name 'groq_llm2' is not defined
+2025-07-09 21:43:14,795 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:43:42,605 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:43:44,732 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:44:23,346 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:44:25,192 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:44:25,295 - api_app - INFO - LegalGPT flow initialized for query: i got this legal notice what should i do next ?...
+2025-07-09 21:44:25,344 - crewai.flow.flow - INFO - Flow started with ID: 61bd4f16-1eab-440c-9e54-6bb040078777
+2025-07-09 21:44:25,397 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:44:29,491 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:29,493 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:29,495 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:29,496 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:29,505 - api_app - INFO - User input processed successfully
+2025-07-09 21:44:29,503 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:29,859 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:44:31,543 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:31,545 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:31,546 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:31,546 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:31,558 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:31,661 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:44:34,131 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:34,148 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:34,155 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:34,156 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:34,255 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:44:34,583 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 21:44:36,325 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:36,327 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:36,328 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:36,328 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:36,343 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:36,436 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 21:44:38,321 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:38,326 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:38,327 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:38,328 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:38,421 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:38,789 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 21:44:40,747 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:44:40,750 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:44:40,751 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:40,751 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:40,771 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:44:40,876 - api_app - INFO - Legal analysis completed successfully
+2025-07-09 21:44:40,897 - api_app - INFO - Legal query processed successfully in 17.55 seconds
+2025-07-09 21:58:11,180 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-09 21:58:42,297 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 21:58:44,922 - api_app - INFO - Clients initialized successfully
+2025-07-09 21:59:42,882 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 21:59:44,541 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 21:59:44,550 - api_app - INFO - LegalGPT flow initialized for query: i got this notice what should steps should i take now ...
+2025-07-09 21:59:44,574 - crewai.flow.flow - INFO - Flow started with ID: f7c4aa90-bd8b-42ee-869f-24e8d89e199f
+2025-07-09 21:59:44,611 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:59:46,620 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:59:46,624 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:59:46,625 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:46,626 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:46,632 - api_app - INFO - User input processed successfully
+2025-07-09 21:59:46,634 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:46,807 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:59:48,593 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:59:48,595 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:59:48,596 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:48,596 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:48,608 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:48,702 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 21:59:58,306 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:59:58,309 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:59:58,310 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:58,310 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:58,338 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 21:59:58,423 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 21:59:59,933 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:59:59,936 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 21:59:59,937 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:59:59,938 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 21:59:59,965 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:00,194 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:00:01,588 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:00:01,591 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:00:01,592 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:01,592 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:01,617 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:01,696 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:00:03,145 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:00:03,147 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:00:03,148 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:03,149 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:03,169 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:00:03,244 - api_app - INFO - Legal analysis completed successfully
+2025-07-09 22:00:03,263 - api_app - INFO - Legal query processed successfully in 20.38 seconds
+2025-07-09 22:12:52,432 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 22:12:58,750 - api_app - INFO - Clients initialized successfully
+2025-07-09 22:17:06,632 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 22:17:10,061 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 22:17:10,077 - api_app - INFO - LegalGPT flow initialized for query: i got this legal notice yesterday what steps should i take ?...
+2025-07-09 22:17:10,093 - crewai.flow.flow - INFO - Flow started with ID: b1f07358-8e73-4847-8a51-4efede768648
+2025-07-09 22:17:10,126 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 22:17:13,947 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:13,950 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:13,952 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:13,954 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:13,968 - api_app - INFO - User input processed successfully
+2025-07-09 22:17:13,966 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:14,214 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 22:17:15,805 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:15,808 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:15,810 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:15,810 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:15,824 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:15,916 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 22:17:19,333 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:19,336 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:19,337 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:19,337 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:19,354 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:17:19,479 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:17:21,609 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:21,612 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:21,613 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:21,614 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:21,641 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:21,731 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:17:23,331 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:23,336 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:23,342 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:23,342 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:23,392 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:23,500 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:17:25,049 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:17:25,051 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:17:25,053 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:25,053 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:25,060 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:17:25,164 - api_app - INFO - Legal analysis completed successfully
+2025-07-09 22:17:25,182 - api_app - INFO - Legal query processed successfully in 18.55 seconds
+2025-07-09 22:20:52,261 - api_app - INFO - Starting LegalGPT API...
+2025-07-09 22:20:54,455 - api_app - INFO - Clients initialized successfully
+2025-07-09 22:21:39,806 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 22:21:41,879 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 22:21:41,890 - api_app - INFO - LegalGPT flow initialized for query: i got this legal notice yesterday what should i do next ?...
+2025-07-09 22:21:41,899 - crewai.flow.flow - INFO - Flow started with ID: 55831bbc-a2d4-41c5-8904-25f927d21ec5
+2025-07-09 22:21:41,939 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 22:21:44,726 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:44,730 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:44,733 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:21:44,734 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:21:44,742 - api_app - INFO - User input processed successfully
+2025-07-09 22:21:44,744 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:21:44,917 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:21:45,952 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:45,954 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:45,955 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:45,955 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:45,982 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:46,038 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:21:47,719 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:47,722 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:47,723 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:47,723 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:47,743 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:47,821 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:21:49,912 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:49,915 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:49,917 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:49,917 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:49,932 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:50,076 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:21:51,334 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:51,336 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:51,337 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:51,337 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:51,357 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:51,408 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:21:52,817 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:21:52,819 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:21:52,820 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:52,821 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:52,836 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:21:52,912 - api_app - INFO - Legal analysis completed successfully
+2025-07-09 22:21:52,941 - api_app - INFO - Legal query processed successfully in 13.14 seconds
+2025-07-09 22:27:20,753 - api_app - INFO - Processing file: converted_text.pdf, type: application/pdf, size: 27659 bytes
+2025-07-09 22:27:22,257 - api_app - INFO - Extracted 7640 characters from document
+2025-07-09 22:27:22,264 - api_app - INFO - LegalGPT flow initialized for query: i got this legal notice yesterday what should i do next...
+2025-07-09 22:27:22,273 - crewai.flow.flow - INFO - Flow started with ID: bf4805f7-3dd9-4c8b-a1fb-1d90d09f5589
+2025-07-09 22:27:22,289 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-09 22:27:24,680 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:24,682 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:24,683 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:27:24,684 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:27:24,700 - api_app - INFO - User input processed successfully
+2025-07-09 22:27:24,703 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-09 22:27:24,888 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:27:25,821 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:25,823 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:25,824 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:25,824 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:25,845 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:25,897 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:27:27,453 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:27,455 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:27,456 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:27,457 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:27,469 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:27,581 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:27:29,443 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:29,445 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:29,446 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:29,446 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:29,481 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:29,546 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:27:30,661 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:30,663 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:30,664 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:30,665 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:30,681 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:30,785 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-09 22:27:32,278 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 22:27:32,280 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-09 22:27:32,281 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:32,281 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:32,303 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-09 22:27:32,382 - api_app - INFO - Legal analysis completed successfully
+2025-07-09 22:27:32,399 - api_app - INFO - Legal query processed successfully in 11.65 seconds
+2025-07-11 12:24:40,422 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:24:42,674 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:25:35,816 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:25:39,335 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:25:39,345 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:25:39,346 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:26:17,432 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:26:45,169 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:26:47,894 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:27:37,227 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:27:38,773 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 400 Bad Request"
+2025-07-11 12:27:38,776 - api_app - ERROR - OCR extraction failed: API error occurred: Status 400
+{
+  "message":"Bad request",
+  "request_id":"c6609f2133e76e5cd31ae22d528cc708"
+}
+2025-07-11 12:27:38,777 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:30:06,340 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:30:30,130 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:30:32,486 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:31:06,245 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:31:09,573 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:31:09,586 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:31:09,587 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:32:31,909 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:32:59,077 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:33:01,938 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:33:35,292 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:33:39,387 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:33:39,397 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:33:39,398 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:36:27,908 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:36:51,415 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:36:53,691 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:37:21,540 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:37:26,661 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:37:26,673 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:37:26,673 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:37:57,136 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:38:22,121 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:38:25,067 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:38:59,159 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:39:04,028 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:39:04,034 - api_app - ERROR - OCR extraction failed: name 'OCRPageObject' is not defined
+2025-07-11 12:39:04,035 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:39:59,114 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:40:19,510 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:40:21,621 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:40:40,278 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:40:43,403 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:40:43,408 - api_app - ERROR - OCR extraction failed: 'list' object has no attribute 'OCRPageObject'
+2025-07-11 12:40:43,409 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:42:02,624 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:42:24,281 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:42:26,379 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:42:45,016 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:42:49,796 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:42:49,809 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:42:49,810 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:43:10,567 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:43:31,426 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:43:33,509 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:43:50,427 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:44:03,879 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:44:04,201 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 12:44:04,202 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:49:46,214 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:50:11,294 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:50:14,346 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:50:37,451 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:50:43,115 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:50:43,433 - api_app - ERROR - OCR extraction failed: 'tuple' object has no attribute 'markdown'
+2025-07-11 12:50:43,434 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:53:00,406 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:53:21,823 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:53:24,321 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:53:48,732 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:53:52,367 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:53:52,371 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object is not subscriptable
+2025-07-11 12:53:52,371 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:55:23,580 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:55:47,221 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:55:49,492 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:56:11,011 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:56:13,482 - api_app - INFO - Clients initialized successfully
+2025-07-11 12:56:34,116 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 12:56:37,732 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 12:56:37,736 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object is not subscriptable
+2025-07-11 12:56:37,737 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 12:59:11,608 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 12:59:50,685 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 12:59:53,242 - api_app - INFO - Clients initialized successfully
+2025-07-11 13:00:12,775 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 13:00:16,994 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 13:00:17,001 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object is not subscriptable
+2025-07-11 13:00:17,002 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 13:03:15,633 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 13:03:40,958 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 13:03:43,466 - api_app - INFO - Clients initialized successfully
+2025-07-11 13:04:00,731 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 13:04:24,044 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 13:04:24,054 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 13:04:24,055 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 13:05:23,649 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 13:05:47,266 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 13:05:49,851 - api_app - INFO - Clients initialized successfully
+2025-07-11 13:06:09,150 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 13:06:12,179 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 13:06:12,190 - api_app - ERROR - OCR extraction failed: 'OCRResponse' object has no attribute 'get'
+2025-07-11 13:06:12,190 - api_app - ERROR - HTTP 400: Failed to extract text from image
+2025-07-11 13:07:22,626 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-11 13:07:45,577 - api_app - INFO - Starting LegalGPT API...
+2025-07-11 13:07:47,700 - api_app - INFO - Clients initialized successfully
+2025-07-11 13:08:20,452 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-11 13:08:25,510 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-11 13:08:25,718 - api_app - INFO - Extracted 4115 characters from document
+2025-07-11 13:08:25,732 - api_app - INFO - LegalGPT flow initialized for query: how to get rid of this ...
+2025-07-11 13:08:25,744 - crewai.flow.flow - INFO - Flow started with ID: d562998f-1252-4d7d-b043-e139002af241
+2025-07-11 13:08:25,779 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-11 13:08:29,570 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:29,572 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:29,574 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-11 13:08:29,575 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-11 13:08:29,583 - api_app - INFO - User input processed successfully
+2025-07-11 13:08:29,581 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-11 13:08:30,526 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-11 13:08:31,435 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:31,438 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:31,439 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:31,440 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:31,468 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:31,936 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-11 13:08:33,671 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:33,674 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:33,676 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:33,676 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:33,689 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:33,863 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-11 13:08:35,712 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:35,714 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:35,716 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:35,716 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:35,752 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:35,824 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-11 13:08:37,449 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:37,452 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:37,453 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:37,454 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:37,471 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:37,660 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-11 13:08:39,669 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-11 13:08:39,673 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-11 13:08:39,674 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:39,674 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:39,699 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-11 13:08:39,787 - api_app - INFO - Legal analysis completed successfully
+2025-07-11 13:08:39,804 - api_app - INFO - Legal query processed successfully in 19.35 seconds
+2025-07-11 14:58:16,467 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-18 23:55:03,541 - api_app - INFO - Starting LegalGPT API...
+2025-07-18 23:55:05,919 - api_app - INFO - Clients initialized successfully
+2025-07-18 23:57:11,042 - api_app - INFO - Processing file: Screenshot 2025-07-11 113143.png, type: image/png, size: 162291 bytes
+2025-07-18 23:57:14,099 - httpx - INFO - HTTP Request: POST https://api.mistral.ai/v1/ocr "HTTP/1.1 200 OK"
+2025-07-18 23:57:14,153 - api_app - INFO - Extracted 4115 characters from document
+2025-07-18 23:57:14,187 - api_app - INFO - LegalGPT flow initialized for query: i got this what should i do now ...
+2025-07-18 23:57:14,202 - crewai.flow.flow - INFO - Flow started with ID: 0abdfa41-8a26-4763-be86-7137fd78ea63
+2025-07-18 23:57:14,253 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-18 23:57:16,305 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:16,310 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:16,313 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-18 23:57:16,314 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-18 23:57:16,344 - api_app - INFO - User input processed successfully
+2025-07-18 23:57:16,351 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-18 23:57:17,157 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-18 23:57:18,174 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:18,178 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:18,179 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:18,179 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:18,195 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:18,351 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-18 23:57:19,967 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:19,971 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:19,972 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:19,973 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:19,994 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:20,149 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-18 23:57:22,247 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:22,251 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:22,252 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:22,254 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:22,359 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:22,613 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-18 23:57:24,492 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:24,495 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:24,496 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:24,496 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:24,516 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:24,646 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-18 23:57:26,616 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-18 23:57:26,621 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-18 23:57:26,623 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:26,623 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:26,675 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-18 23:57:26,780 - api_app - INFO - Legal analysis completed successfully
+2025-07-18 23:57:26,829 - api_app - INFO - Legal query processed successfully in 15.79 seconds
+2025-07-19 00:16:01,329 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-19 00:22:22,787 - api_app - INFO - Starting LegalGPT API...
+2025-07-19 00:22:25,017 - api_app - INFO - Clients initialized successfully
+2025-07-19 00:23:25,049 - api_app - ERROR - Document upload failed: name 'uuid' is not defined
+2025-07-19 00:23:25,049 - api_app - ERROR - HTTP 500: Failed to upload document: name 'uuid' is not defined
+2025-07-19 00:25:24,102 - api_app - INFO - Shutting down LegalGPT API...
+2025-07-19 00:25:47,448 - api_app - INFO - Starting LegalGPT API...
+2025-07-19 00:25:49,695 - api_app - INFO - Clients initialized successfully
+2025-07-19 00:26:06,796 - api_app - INFO - Document uploaded and processed with ID: f0f1bcc5-9f00-48ee-90a1-7ef948a96531
+2025-07-19 00:26:41,097 - api_app - ERROR - HTTP 404: Document ID not found.
+2025-07-19 00:27:06,791 - api_app - INFO - LegalGPT flow initialized for query: what should i do next...
+2025-07-19 00:27:06,820 - crewai.flow.flow - INFO - Flow started with ID: 710ed0c3-211c-4b97-8744-da803e7803c1
+2025-07-19 00:27:06,869 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-19 00:27:09,212 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:09,215 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:09,216 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:27:09,217 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:27:09,229 - api_app - INFO - User input processed successfully
+2025-07-19 00:27:09,224 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:27:09,391 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:27:10,249 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:10,252 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:10,253 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:10,254 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:10,264 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:10,372 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:27:11,777 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:11,779 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:11,780 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:11,780 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:11,791 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:11,917 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:27:13,737 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:13,739 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:13,740 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:13,741 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:13,834 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:14,123 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:27:15,900 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:15,903 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:15,904 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:15,904 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:15,920 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:16,030 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:27:17,370 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:27:17,374 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:27:17,375 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:17,376 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:17,388 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:27:17,603 - api_app - INFO - Legal analysis completed successfully
+2025-07-19 00:27:17,645 - api_app - INFO - Legal query processed successfully in 10.89 seconds for doc ID: f0f1bcc5-9f00-48ee-90a1-7ef948a96531
+2025-07-19 00:28:04,097 - api_app - INFO - LegalGPT flow initialized for query: is it ok to appear againt them...
+2025-07-19 00:28:04,107 - crewai.flow.flow - INFO - Flow started with ID: c2f9bc06-2e59-4ea9-bfe9-7ceef936c70a
+2025-07-19 00:28:04,131 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2025-07-19 00:28:05,970 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:05,973 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:05,974 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:28:05,985 - api_app - INFO - User input processed successfully
+2025-07-19 00:28:05,974 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:28:05,995 - LiteLLM - INFO - selected model name for cost calculation: groq/llama-3.3-70b-versatile
+2025-07-19 00:28:06,119 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:28:07,016 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:07,019 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:07,020 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:07,020 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:07,041 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:07,148 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:28:08,490 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:08,492 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:08,494 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:08,494 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:08,509 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:08,622 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:28:10,057 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:10,059 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:10,060 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:10,061 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:10,075 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:10,165 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:28:11,599 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:11,602 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:11,603 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:11,603 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:11,630 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:11,694 - LiteLLM - INFO - 
+LiteLLM completion() model= gemma2-9b-it; provider = groq
+2025-07-19 00:28:13,423 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:28:13,425 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-19 00:28:13,426 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:13,427 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:13,445 - LiteLLM - INFO - selected model name for cost calculation: groq/gemma2-9b-it
+2025-07-19 00:28:13,526 - api_app - INFO - Legal analysis completed successfully
+2025-07-19 00:28:13,545 - api_app - INFO - Legal query processed successfully in 9.46 seconds for doc ID: f0f1bcc5-9f00-48ee-90a1-7ef948a96531
+2025-07-19 00:28:47,604 - api_app - INFO - Shutting down LegalGPT API...
